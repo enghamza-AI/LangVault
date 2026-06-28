@@ -33,8 +33,7 @@ pip install -r requirements.txt
 #    Go to: https://www.kaggle.com/datasets/the-guardian/extinct-languages
 #    Download and put the CSV in:  data/raw/languages.csv
 
-# 4. Open notebooks in order
-jupyter notebook notebooks/01_explore.ipynb
+
 ```
 
 ---
@@ -85,9 +84,4 @@ LangVault/
 
 ---
 
-## Learning path
 
-Run the notebooks **in order** (01 → 02 → 03 → 04).  
-Each notebook builds on the previous one and has heavy comments explaining every decision.
-
-Read `ABOUT_THE_PROJECT.md` first if you want the theory before touching code.
