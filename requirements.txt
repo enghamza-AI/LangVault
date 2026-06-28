@@ -1,0 +1,29 @@
+# ============================================================
+# LangVault — Python dependencies
+# ============================================================
+# Install everything with:
+#   pip install -r requirements.txt
+#
+# Tested on Python 3.9+
+# ============================================================
+
+# Core data science stack
+pandas>=1.5.0          # DataFrames — loading, cleaning, transforming the CSV
+numpy>=1.23.0          # Numerical operations, array math
+
+# Machine learning
+scikit-learn>=1.2.0    # Random Forest, metrics, train/test split, cross-validation
+
+# Handling class imbalance (the central topic of this project)
+imbalanced-learn>=0.10.0  # SMOTE and other oversampling/undersampling techniques
+
+# Visualisation
+matplotlib>=3.6.0      # Base plotting library
+seaborn>=0.12.0        # Higher-level plots — confusion matrix heatmaps, distributions
+
+# Notebook support
+jupyter>=1.0.0         # Jupyter notebook server
+ipykernel>=6.0.0       # Kernel for notebooks
+
+# Saving trained models
+joblib>=1.2.0          # Save/load sklearn model objects to disk as .pkl files
